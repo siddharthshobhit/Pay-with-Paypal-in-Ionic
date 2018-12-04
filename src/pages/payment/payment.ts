@@ -18,8 +18,7 @@ export class PaymentPage {
 
     this.payPal.init({
       PayPalEnvironmentProduction: 'YOUR_PRODUCTION_CLIENT_ID',
-      /*PayPalEnvironmentSandbox: 'AdU-mc_aRKfeLSHz2NMCcWWvCMIRHI-fwXU6kWxCIkSDLo8tfotYftc-dc69I7N9D1cixS59ZV2lYD9x'*/
-      PayPalEnvironmentSandbox: 'AVCawIPffHlBkVVCv5Rn9ZsxHkLeWIISILGpXbQmCQ63uuMT-BOGmfOHiKR5fVEE6J7kAHdaKZqkU8O5'
+      PayPalEnvironmentSandbox: '*********************************************************************'
     }).then(() => {
       // Environments: PayPalEnvironmentNoNetwork, PayPalEnvironmentSandbox, PayPalEnvironmentProduction
       this.payPal.prepareToRender('PayPalEnvironmentSandbox', new PayPalConfiguration({
