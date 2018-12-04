@@ -1,0 +1,39 @@
+page-home {
+    .toolbar-title {
+        text-align: center;
+    }
+    .toolbar-background {
+        background: $headerBG;
+    }
+
+    .toolbar-background-md {
+        background: green;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    .payButtonAlignment {
+        margin-top: 60%;
+    }
+
+    .item.item-block .item-inner {
+        border-bottom: none;
+    }
+
+    .addBorder {
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        margin-top: 15%;
+    }
+    .greBorder {
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+    }
+
+    .redBorder {
+        border-bottom: 1px solid red;
+        border-top: 1px solid red;
+    }
+}
