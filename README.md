@@ -14,7 +14,7 @@ Steps:
     6.	You can toggle between Sandbox and Live Client Id.  For demo we will use Sandbox anccount
 
 #Installations/Injection:
-    For using Facebook plugin first we need to sign up to Facebook developer console, for that go to https://ionicframework.com/docs/native/paypal/.
+    For using Paypal plugin first we need to sign up to Paypal developer console, for that go to https://ionicframework.com/docs/native/paypal/.
     1.	Install the Cordova and Ionic Native plugins.use link(https://ionicframework.com/docs/native/paypal/)
     2.	Import libraries in app.module.ts page.(Dependencies  injection in app.module.ts page)
 
@@ -25,5 +25,5 @@ Steps:
     1.	Plugin ionic-native for Paypal:
         i. https://ionicframework.com/docs/native/paypal/
         ii. https://www.paypal.com/in/webapps/mpp/merchant
-    2.	Facebook Developer Console: https://developer.paypal.com/
+    2.	Paypal Developer Console: https://developer.paypal.com/
     3.	Sample Application : https://github.com/vcjpierre/ionic-paypal
